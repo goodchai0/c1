@@ -1,0 +1,18 @@
+How Vite Uses ESM
+
+
+When you run a Vite project, instead of bundling your entire application into one big file before serving it (like some other tools do), Vite serves each module (or file) directly to the browser as needed.
+Why This is Good
+
+Faster Start: Your app starts up quickly because it doesn’t have to wait to bundle everything together.
+
+Quick Changes: You can make changes and see them instantly, which makes developing much smoother and faster.
+
+Hot Module Replacement (HMR): When you make changes in your code, Vite only reloads the affected modules instead of the whole application. This makes updates appear instantly in the browser without losing the application state, significantly enhancing the development experience.
+
+On-Demand Compilation: Vite compiles files on demand as they are requested, rather than pre-compiling everything upfront. This reduces the initial loading time and allows developers to work more efficiently.
+
+
+
+command:
+npm create vite@latest
