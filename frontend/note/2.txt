@@ -1,0 +1,12 @@
+delete unwanted
+create folder
+-pages
+-components
+
+download a png 
+
+page LoginPage folder - jsx and module.css file
+
+import popins font
+
+create Login component
