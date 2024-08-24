@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    overflow-y: hidden;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    width: 50vw;
+}
+
+.left img{
+    height: 50vh;
+    color: black;
+}
+.left h2{
+    margin:0rem;
+    color: black;
+}
+.left p{
+    margin:0rem;
+    color: black;
+}

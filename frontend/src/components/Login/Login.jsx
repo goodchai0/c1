@@ -16,17 +16,19 @@ const Login = () => {
     const handleSubmit=(event)=>{
         event.preventDefault();
         console.log({...data})
+        return
     }
     const handleChange=(e)=>{
         setData({...data,[e.target.name]:e.target.value})
+        return
     }
 
   return (
     <div className={styles.container}>
         <h1 className={styles.h1}>Login componenet</h1>
         {/* lets make these two classes */}
-        <div className={styles.input_box}>
-            <img src={email}/>
+        <div className={styles.input_box} >
+            <img src={email} alt="Email Icon"/>
             <input
             className={styles.input}
             name="email"
@@ -37,7 +39,7 @@ const Login = () => {
             />
         </div>
         <div className={styles.input_box}>
-            <img src={password}/>
+            <img src={password}alt="Password Icon"/>
             <input
             className={styles.input}
             name="password"
